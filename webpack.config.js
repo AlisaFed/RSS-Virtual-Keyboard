@@ -16,7 +16,12 @@ module.exports = {
         new HTMLWebpackPlugin({
             template: './index.html' 
         }),
-        new CleanWebpackPlugin()
+        new CleanWebpackPlugin({
+            cleanOnceBeforeBuildPatterns: [
+                '**/*',
+                '!.git',
+            ],
+        }),
     ], 
     module: {
         rules: [
