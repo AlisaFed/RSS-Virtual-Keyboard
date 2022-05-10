@@ -56,10 +56,10 @@ body {
 @keyframes button_animation {
     0% {
         background-color: rgb(253, 208, 153); 
-    }
+    };
     100% {
         background-color: blanchedalmond;
-    }
+    };
     
 }
 
